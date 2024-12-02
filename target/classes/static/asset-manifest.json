@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Propsuite/static/css/main.388f0e2b.css",
+    "main.js": "/Propsuite/static/js/main.a134dde1.js",
+    "static/js/453.419a5d54.chunk.js": "/Propsuite/static/js/453.419a5d54.chunk.js",
+    "static/media/gif4.gif": "/Propsuite/static/media/gif4.6b3fec08653ae12fe653.gif",
+    "index.html": "/Propsuite/index.html",
+    "main.388f0e2b.css.map": "/Propsuite/static/css/main.388f0e2b.css.map",
+    "main.a134dde1.js.map": "/Propsuite/static/js/main.a134dde1.js.map",
+    "453.419a5d54.chunk.js.map": "/Propsuite/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.388f0e2b.css",
+    "static/js/main.a134dde1.js"
+  ]
+}
