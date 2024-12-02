@@ -1,0 +1,166 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+  background: url('./gif4.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.welcome-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.welcome-content {
+  max-width: 800px;
+  padding: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.main-title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Subtitle styles */
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Divider */
+.divider {
+  width: 80%;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: -10px auto 20px;
+  opacity: 0.8;
+}
+
+/* Login Box */
+.login-box {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-title {
+  font-size: 1.8rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+  transition: border-bottom 0.3s;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button Styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaciado entre botones */
+}
+
+.custom-button {
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px; /* Más cuadrados */
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.custom-button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+.back-button {
+  font-size: 1rem;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px; /* Más cuadrados */
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+.success-message {
+  color: #28a745; /* Verde */
+  font-size: 1rem;
+  font-weight: bold; /* Resaltar mensaje */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #dc3545; /* Rojo */
+  font-size: 1rem;
+  font-weight: bold; /* Resaltar mensaje */
+  margin-top: 10px;
+  text-align: center;
+}
+
